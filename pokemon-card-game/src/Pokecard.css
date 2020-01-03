@@ -4,8 +4,9 @@
     margin: 1rem;
     box-shadow: 7px 10px 12px -15px rgba(0, 0, 0, 0.56);
     text-align: center;
-    background-color: white;
+    background-color: rgb(95, 193, 238);
     border-radius: 3px;
+    border: rgb(48, 48, 226) 10px solid;
 }
 
 .Pokecard-data {
@@ -16,6 +17,11 @@
     margin-bottom: 1rem;
     font-weight: bold;
     font-size: 1.5rem;
+}
+
+.Pokecard-hp {
+    font-size: 80%;
+    margin-bottom: 1rem;
 }
 
 .Pokecard-image {
