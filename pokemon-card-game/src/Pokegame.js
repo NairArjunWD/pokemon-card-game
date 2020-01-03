@@ -4,6 +4,9 @@ import Pokedex from './Pokedex';
 class Pokegame extends Component {
     static defaultProps = {
         pokemon: [
+            { id: 1, name: 'Bulbasaur', type: 'grass', hp: 10, base_experience: 62},
+            { id: 2, name: 'Ivysaur', type: 'grass', hp: 50, base_experience: 62 },
+            { id: 3, name: 'Venasaur', type: 'grass', hp: 150, base_experience: 62 },
             { id: 4, name: 'Charmander', type: 'fire', hp: 10, base_experience: 62 },
             { id: 5, name: 'Charmeleon', type: 'fire', hp: 50, base_experience: 62 },
             { id: 6, name: 'Charizard', type: 'fire/ flying', hp: 150, base_experience: 62 },
