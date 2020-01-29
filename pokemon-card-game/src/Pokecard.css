@@ -5,8 +5,9 @@
     box-shadow: 7px 10px 12px -15px rgba(0, 0, 0, 0.56);
     text-align: center;
     /* background-color: rgb(247, 78, 78); */
+    background-color: white;
     border-radius: 3px;
-    border: white 10px double;
+    border: black 10px double;
 }
 
 .Pokecard-data {
@@ -43,5 +44,5 @@
 }
 
 h1 {
-    color: white;
+    color: black;
 }
