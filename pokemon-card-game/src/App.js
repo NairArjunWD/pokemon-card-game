@@ -13,3 +13,5 @@ class App extends Component {
 }
 
 export default App;
+
+// To update, 'npm run build', then 'firebase deploy'
